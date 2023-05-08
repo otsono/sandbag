@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "37bd2d7b-4cf4-4905-b800-99bc84f49b1c",
+  "id": "heavyattack3",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.1"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

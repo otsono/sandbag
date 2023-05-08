@@ -1,0 +1,5 @@
+# Ignore Sandbag sprites per SSF2 devs
+library/sprites/0_sandbag
+
+# Don't bother importing all the template stuff
+library/sprites/0_body pieces

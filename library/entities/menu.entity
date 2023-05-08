@@ -1,0 +1,635 @@
+{
+  "animations": [
+    {
+      "$id": "485b7c6f-210e-404d-9ff2-1c77f643e95a",
+      "layers": [
+        "5f8a61fe-f7fd-4502-b68d-e0c6c541769f",
+        "6dff397f-60c5-4766-ab33-8075e7b4ac4d"
+      ],
+      "name": "full",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "400609c3-9081-40c5-b3fe-b89506266004",
+      "layers": [
+        "735e9860-1071-4ab8-8582-0c8b50f64cce",
+        "cf09a5dd-3c33-4ee2-b8a4-d1a8427fb567"
+      ],
+      "name": "css",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "077f3752-1af0-4a59-8502-9fd49b830bbe",
+      "layers": [
+        "7272ab28-ee0f-4dda-8962-a1e64c41538d"
+      ],
+      "name": "icon",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "f09c711a-5ba5-4fd5-a913-37e93f4bfc22",
+      "layers": [
+        "b004274d-4cac-4ccc-9d2e-82d250b5c98c"
+      ],
+      "name": "icon_no_palette",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "d679cf2e-6939-4ac4-b523-6ba88fcbb7d1",
+      "layers": [
+        "1a359f16-b230-4553-a7e1-bf7b3c7f38d4"
+      ],
+      "name": "hud",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e98d749f-0eae-4233-a4fb-ab6115d78b67",
+      "layers": [
+        "567db068-84f7-4a45-92b5-ea83be096844"
+      ],
+      "name": "hud_angry",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ac10338d-07a2-41be-879d-a6500f415258",
+      "layers": [
+        "8db62e66-a56b-4918-a64c-d4ba051bbc35"
+      ],
+      "name": "hud_happy",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "36265425-e790-4571-b461-8c2f75ab4d78",
+      "layers": [
+        "723a4437-8daf-44f8-9328-2c05de830108"
+      ],
+      "name": "hud_hurt",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "98d19258-0ff8-49d6-af91-7d47808e9cb7",
+      "layers": [
+        "de828034-1974-4cd4-8f53-f1f25194000b"
+      ],
+      "name": "hud_sad",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "fb5e75aa-c031-4305-8b90-4b548e17a749",
+  "id": "menu",
+  "keyframes": [
+    {
+      "$id": "c89ba130-2cd7-4010-b649-170dbf703e13",
+      "length": 1,
+      "name": "",
+      "pluginMetadata": {
+      },
+      "type": "LABEL"
+    },
+    {
+      "$id": "244999a9-276c-4393-a120-284b0e712d2b",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "592266d9-a538-4a19-b9a7-75358dbd3ac4",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "b3379bb8-849a-491c-9b2f-b4584e3c789e",
+      "length": 1,
+      "name": "",
+      "pluginMetadata": {
+      },
+      "type": "LABEL"
+    },
+    {
+      "$id": "adefd38d-703c-4c76-a180-a359139b5ce4",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "a76488b9-fecc-424a-809e-f1130847eb58",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "8126ade7-94ca-4342-ae80-8412189e0709",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "005c2e60-b86b-4eb0-b3b8-e249b6523694",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "f546c631-adb9-4e01-a6d8-8df36f21ecaf",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "918b9565-057b-4a48-aba2-ce68fe1d84ce",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "589acc66-ed98-4f77-9d64-677293c82ada",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "8169d2bd-3fff-40b9-b130-d585854548c4",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "c577084c-6ba9-40e4-a45c-512891173b7b",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "77298c4a-e126-4e34-aeb6-a22bf509d30f",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "d5e9c579-3cda-4846-9289-b48eef3d9ba3",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "870b3aea-22fb-4c79-bb3e-c33a1085252a",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "9406c3fc-4af7-49ca-8cf1-387afcce8f37",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "f87a6765-d174-4c6e-9f92-d0b79aa1d518",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "ecb58b7f-e83c-41ba-9bdd-3b5e4bf5471e",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "874c8fc7-9cd5-4d49-8d13-742a567156f5",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "e9503fb6-e4c2-4a1f-a3f5-24dce1f8fad1",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "26968c63-85e9-4648-81fc-7288c9edeec2",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "81fa857d-750b-42f6-8109-81e81958ec66",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "b6d0e678-1a1c-4c86-8ff9-f7298ed31daf",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "bf55e5d3-ae6a-4339-8baf-444c94bad868",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "54235d06-f6f9-4055-b4fd-6c8a564f4c04",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "9f0679df-d021-4a61-8d16-721538196002",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    }
+  ],
+  "layers": [
+    {
+      "$id": "1b688d04-854b-4ce2-b1bf-66e8aac41d45",
+      "hidden": false,
+      "keyframes": [
+        "c89ba130-2cd7-4010-b649-170dbf703e13"
+      ],
+      "locked": false,
+      "name": "Labels",
+      "pluginMetadata": {
+      },
+      "type": "LABEL"
+    },
+    {
+      "$id": "195f1bc9-1618-4afe-bb73-e0d7667da9a3",
+      "hidden": false,
+      "keyframes": [
+        "244999a9-276c-4393-a120-284b0e712d2b"
+      ],
+      "language": "",
+      "locked": false,
+      "name": "Scripts",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "b3b4179c-6133-4439-b29e-cf2e4fffd1b2",
+      "hidden": false,
+      "keyframes": [
+        "592266d9-a538-4a19-b9a7-75358dbd3ac4"
+      ],
+      "locked": false,
+      "name": "Image 0",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "d72b229d-fe1b-4b18-96e5-d7797f3d40d1",
+      "hidden": false,
+      "keyframes": [
+        "b3379bb8-849a-491c-9b2f-b4584e3c789e"
+      ],
+      "locked": false,
+      "name": "Labels",
+      "pluginMetadata": {
+      },
+      "type": "LABEL"
+    },
+    {
+      "$id": "9ff66fff-b8ac-414b-b2a5-1b0c08effca5",
+      "hidden": false,
+      "keyframes": [
+        "adefd38d-703c-4c76-a180-a359139b5ce4"
+      ],
+      "language": "",
+      "locked": false,
+      "name": "Scripts",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e8b482b2-d27a-4996-aad5-c9ee0d4744d7",
+      "hidden": false,
+      "keyframes": [
+        "a76488b9-fecc-424a-809e-f1130847eb58"
+      ],
+      "locked": false,
+      "name": "Image 0",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "735e9860-1071-4ab8-8582-0c8b50f64cce",
+      "hidden": false,
+      "keyframes": [
+        "8126ade7-94ca-4342-ae80-8412189e0709"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "cf09a5dd-3c33-4ee2-b8a4-d1a8427fb567",
+      "hidden": false,
+      "keyframes": [
+        "f546c631-adb9-4e01-a6d8-8df36f21ecaf"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "5f8a61fe-f7fd-4502-b68d-e0c6c541769f",
+      "hidden": false,
+      "keyframes": [
+        "589acc66-ed98-4f77-9d64-677293c82ada"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "567db068-84f7-4a45-92b5-ea83be096844",
+      "hidden": false,
+      "keyframes": [
+        "f87a6765-d174-4c6e-9f92-d0b79aa1d518"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "8db62e66-a56b-4918-a64c-d4ba051bbc35",
+      "hidden": false,
+      "keyframes": [
+        "874c8fc7-9cd5-4d49-8d13-742a567156f5"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "723a4437-8daf-44f8-9328-2c05de830108",
+      "hidden": false,
+      "keyframes": [
+        "26968c63-85e9-4648-81fc-7288c9edeec2"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "de828034-1974-4cd4-8f53-f1f25194000b",
+      "hidden": false,
+      "keyframes": [
+        "b6d0e678-1a1c-4c86-8ff9-f7298ed31daf"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "7272ab28-ee0f-4dda-8962-a1e64c41538d",
+      "hidden": false,
+      "keyframes": [
+        "c577084c-6ba9-40e4-a45c-512891173b7b"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "6dff397f-60c5-4766-ab33-8075e7b4ac4d",
+      "hidden": false,
+      "keyframes": [
+        "d5e9c579-3cda-4846-9289-b48eef3d9ba3"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "1a359f16-b230-4553-a7e1-bf7b3c7f38d4",
+      "hidden": false,
+      "keyframes": [
+        "870b3aea-22fb-4c79-bb3e-c33a1085252a"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "b004274d-4cac-4ccc-9d2e-82d250b5c98c",
+      "hidden": false,
+      "keyframes": [
+        "54235d06-f6f9-4055-b4fd-6c8a564f4c04"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    }
+  ],
+  "paletteMap": {
+    "paletteCollection": "3ee9a440-4556-4686-bd78-86caeb020ec8",
+    "paletteMap": null
+  },
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "spritesheetGroup": "menu",
+      "version": "0.1.1"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "symbols": [
+    {
+      "$id": "005c2e60-b86b-4eb0-b3b8-e249b6523694",
+      "alpha": 1,
+      "imageAsset": "17bcab94-2faa-4fe0-aa84-50bca804c64c",
+      "pivotX": 25.5,
+      "pivotY": 43,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -11,
+      "y": -16
+    },
+    {
+      "$id": "918b9565-057b-4a48-aba2-ce68fe1d84ce",
+      "alpha": 1,
+      "imageAsset": "dbe165c8-e1f9-44ae-b051-5e9a5b26dee3",
+      "pivotX": 25.5,
+      "pivotY": 43,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -11,
+      "y": -16
+    },
+    {
+      "$id": "8169d2bd-3fff-40b9-b130-d585854548c4",
+      "alpha": 1,
+      "imageAsset": "1da8a879-7d06-4944-8452-8ddcebd791b6",
+      "pivotX": 25.5,
+      "pivotY": 43,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -132,
+      "y": -184
+    },
+    {
+      "$id": "77298c4a-e126-4e34-aeb6-a22bf509d30f",
+      "alpha": 1,
+      "imageAsset": "d3c92eed-0bcc-4760-85e6-1fde7f11f95b",
+      "pivotX": 25.5,
+      "pivotY": 43,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "$id": "9406c3fc-4af7-49ca-8cf1-387afcce8f37",
+      "alpha": 1,
+      "imageAsset": "8ef775cb-c8c4-463f-8cb9-35a29d152987",
+      "pivotX": 33.5,
+      "pivotY": 33.5,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -33,
+      "y": -31
+    },
+    {
+      "$id": "ecb58b7f-e83c-41ba-9bdd-3b5e4bf5471e",
+      "alpha": 1,
+      "imageAsset": "ef5f2b91-44b2-4775-8dbb-3236b0525edf",
+      "pivotX": 33.5,
+      "pivotY": 33.5,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -33,
+      "y": -31
+    },
+    {
+      "$id": "e9503fb6-e4c2-4a1f-a3f5-24dce1f8fad1",
+      "alpha": 1,
+      "imageAsset": "3acf150f-c72f-44aa-9af6-d7fc423842eb",
+      "pivotX": 33.5,
+      "pivotY": 33.5,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -33,
+      "y": -31
+    },
+    {
+      "$id": "81fa857d-750b-42f6-8109-81e81958ec66",
+      "alpha": 1,
+      "imageAsset": "a1fbd733-c1c4-481e-b0c8-73c09d90f555",
+      "pivotX": 33.5,
+      "pivotY": 33.5,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -33,
+      "y": -31
+    },
+    {
+      "$id": "bf55e5d3-ae6a-4339-8baf-444c94bad868",
+      "alpha": 1,
+      "imageAsset": "fcd2dcd0-81be-4a10-97fa-018c1159ea63",
+      "pivotX": 33.5,
+      "pivotY": 33.5,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -33,
+      "y": -31
+    },
+    {
+      "$id": "9f0679df-d021-4a61-8d16-721538196002",
+      "alpha": 1,
+      "imageAsset": "e9715150-8e72-412f-b747-ac8e3a15b5b4",
+      "pivotX": 20.5,
+      "pivotY": 10.5,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "tags": [
+    "menu"
+  ],
+  "terrains": [
+  ],
+  "tilesets": [
+  ],
+  "version": 14
+}
