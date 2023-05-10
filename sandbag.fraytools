@@ -56,6 +56,10 @@
     {
       "id": "build0",
       "path": "./build"
+    },
+    {
+      "id": "FMLocal",
+      "path": "../../../../../SteamLibrary/steamapps/common/Fraymakers/custom/Sandbag"
     }
   ],
   "snapToPixel": true,
