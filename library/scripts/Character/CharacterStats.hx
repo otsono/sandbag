@@ -5,8 +5,8 @@
 	//GENERIC STATS
 
 	// Note: Currently scale adjustments invalidate SpecialAngle AUTOLINK_STRONGER and AUTOLINK_STRONGEST for values other than 1.0. 
-	baseScaleX: 1.0,
-	baseScaleY: 1.0, 
+	baseScaleX: 1.25,
+	baseScaleY: 1.25, 
 	weight: 85,
 	gravity: 0.8,
 	shortHopSpeed: 8.25,
@@ -15,19 +15,19 @@
 	doubleJumpSpeeds: [15.5],
 	terminalVelocity: 9.25,
 	fastFallSpeed: 13.75,
-	friction: 0.57,
-	walkSpeedInitial: 1.0,
-	walkSpeedAcceleration: 0.3,
-	walkSpeedCap: 3.25,
-	dashSpeed: 9.5,
-	runSpeedInitial: 4.75,
+	friction: 0.97,
+	walkSpeedInitial: 0,
+	walkSpeedAcceleration: 0,
+	walkSpeedCap: 8,
+	dashSpeed: 0,
+	runSpeedInitial: 0,
 	runSpeedAcceleration: 0.55,
 	runSpeedCap: 7.5,
 	groundSpeedAcceleration: 0.3,
 	groundSpeedCap: 11,
 	aerialSpeedAcceleration: 0.45,
 	aerialSpeedCap: 6.5,
-	aerialFriction: 0.22,
+	aerialFriction: 0.15,
 	
 	//ENVIRONMENTAL COLLISION BODY (ECB) STATS
 	floorHeadPosition: 86,

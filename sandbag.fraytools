@@ -60,6 +60,10 @@
     {
       "id": "build1",
       "path": "../../../../../../../Program Files (x86)/Steam/steamapps/common/Fraymakers/custom/sandbag"
+    },
+    {
+      "id": "desktopBuild",
+      "path": "../../../../../SteamLibrary/steamapps/common/Fraymakers/custom/Sandbag"
     }
   ],
   "snapToPixel": true,
