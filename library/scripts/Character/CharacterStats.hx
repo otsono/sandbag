@@ -44,10 +44,10 @@
 	aerialFootPosition: 25,
 
 	//CAMERA BOX STATS
-	cameraBoxOffsetX: 25,
-	cameraBoxOffsetY: 75,
-	cameraBoxWidth: 200,
-	cameraBoxHeight: 250,
+	cameraBoxOffsetX: 15,
+	cameraBoxOffsetY: 50,
+	cameraBoxWidth: 150,
+	cameraBoxHeight: 200,
 
 	//ROLL AND LEDGE JUMP STATS
 	techRollSpeed: 15.5,
@@ -76,15 +76,15 @@
 	shieldCrossupThreshold: 16,	
 	//This dictates the *visual* size of the shield, which doesn't correlate to the actual shieldable area. HIGHLY recommend adjusting the "front" and "back" number sets together (for example, subtracting/adding to both "shieldBackWidth" and "shieldFrontWidth" by the same amount at the same time), it's currently really easy to lose track of the sizing and positioning if you aren't careful. 
 	shieldFrontNineSliceContent: "global::vfx.vfx_shield_front",
-	shieldFrontXOffset: 10.5,
+	shieldFrontXOffset: 5,
 	shieldFrontYOffset: 4,
-	shieldFrontWidth: 53,
-	shieldFrontHeight: 93,
+	shieldFrontWidth: 31,
+	shieldFrontHeight: 75,
 	shieldBackNineSliceContent: "global::vfx.vfx_shield_back",
-	shieldBackXOffset: 12.5,
+	shieldBackXOffset: 5,
 	shieldBackYOffset: 4,
-	shieldBackWidth: 49,
-	shieldBackHeight: 93,
+	shieldBackWidth: 30,
+	shieldBackHeight: 75,
 
 	//VOICE STATS
 	//Populate the brackets with IDs in parenthesis separated by commas to add them to the voice bank.
