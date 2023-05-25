@@ -45997,7 +45997,7 @@
     {
       "$id": "915a6459-cd1a-4bec-9c35-a38815babb1e",
       "defaultAlpha": 0.5,
-      "defaultColor": "0x000000",
+      "defaultColor": "0xf5e042",
       "hidden": false,
       "keyframes": [
         "3174ac68-e984-4f44-b8d4-b16680b43229",
@@ -46010,8 +46010,12 @@
         "e0001caa-0c0f-4a3b-9e19-48d5ec66d7b7"
       ],
       "locked": false,
-      "name": "hurtbox1",
+      "name": "hurtbox0",
       "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "collisionBoxType": "HURT_BOX",
+          "index": 0
+        }
       },
       "type": "COLLISION_BOX"
     }
