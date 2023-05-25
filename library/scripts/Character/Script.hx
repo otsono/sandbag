@@ -1,5 +1,7 @@
 // API Script
 
+//SANDBAG ATTRIBUTES
+WD_TO_WALK_MOMENTUM_CONSERVATION = 0.5;
 
 var neutralSpecialProjectile = self.makeObject(null); // Tracks active Neutral Special projectile (in case we need to handle any special cases)
 
@@ -127,4 +129,20 @@ function specialDown_gotoLoop(){
 
     // start checking inputs
     downSpecialLoopCheckTimer.set(self.addTimer(1, -1, specialDown_checkLoop));    
+}
+
+//-------------------------- HELPER FUNCTIONS -----------------------//
+/**
+ * Compares the return value from a function against a list.
+ */
+function isAny(valueFromFunction:any, returnVals:Array):Bool{
+    var isTrue = false;
+
+    for (value in returnVals){        
+        if(valueFromFunction == value){
+            return true;
+        }
+    }
+
+    return isTrue;
 }
