@@ -1100,8 +1100,7 @@
         "70021a2f-8ff7-4e9a-8c2f-638575d17c25",
         "e953098f-88e8-4368-b739-8f66f878c4ee",
         "3458ca56-4a1b-48d6-b163-96dcb84e2bec",
-        "1f0d6c70-b53f-4f0d-a56a-9148a544f897",
-        "7812a0df-ccbc-400c-ad11-863c085f2280"
+        "1f0d6c70-b53f-4f0d-a56a-9148a544f897"
       ],
       "name": "special_up",
       "pluginMetadata": {
@@ -1116,8 +1115,7 @@
         "a1b388c0-84fd-4654-9d94-fb0666054ab0",
         "8eb1c473-bd41-4323-8ef4-e6155667891c",
         "292c8746-605f-41fd-8d4f-a316c4074fb4",
-        "742164e7-8c6d-422e-ad3a-a82a93a7624d",
-        "c2eac155-8d6e-4ff3-90a7-d4137010e856"
+        "742164e7-8c6d-422e-ad3a-a82a93a7624d"
       ],
       "name": "special_up_air",
       "pluginMetadata": {
@@ -29886,26 +29884,6 @@
       "type": "FRAME_SCRIPT"
     },
     {
-      "$id": "be77815f-a221-486b-88d8-f58b07b81370",
-      "length": 28,
-      "pluginMetadata": {
-      },
-      "symbol": null,
-      "tweenType": "LINEAR",
-      "tweened": false,
-      "type": "COLLISION_BOX"
-    },
-    {
-      "$id": "211e5510-ac98-4591-89a7-d91b0b55ff93",
-      "length": 28,
-      "pluginMetadata": {
-      },
-      "symbol": null,
-      "tweenType": "LINEAR",
-      "tweened": false,
-      "type": "COLLISION_BOX"
-    },
-    {
       "$id": "f11c170c-af7c-4912-be4b-4f611d88720e",
       "code": "Common.setIASA(true);",
       "length": 1,
@@ -30428,16 +30406,6 @@
       "type": "COLLISION_BOX"
     },
     {
-      "$id": "d866063c-faa1-4e61-8ff0-7fb56c9331f7",
-      "length": 10,
-      "pluginMetadata": {
-      },
-      "symbol": "55269268-96e0-4a95-8313-ee63f5227c1a",
-      "tweenType": "LINEAR",
-      "tweened": false,
-      "type": "COLLISION_BOX"
-    },
-    {
       "$id": "10de9758-f795-4100-aff7-691edf0d9798",
       "length": 1,
       "pluginMetadata": {
@@ -30837,16 +30805,6 @@
       "pluginMetadata": {
       },
       "symbol": "95df4cf8-a5c4-405f-9ed4-a348c457ec85",
-      "tweenType": "LINEAR",
-      "tweened": false,
-      "type": "COLLISION_BOX"
-    },
-    {
-      "$id": "8946cbf9-64c4-4100-adab-49e0ed879f3d",
-      "length": 10,
-      "pluginMetadata": {
-      },
-      "symbol": "4bd919a0-48be-40ed-b78e-228d540c4838",
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "COLLISION_BOX"
@@ -44288,44 +44246,6 @@
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
-    },
-    {
-      "$id": "7812a0df-ccbc-400c-ad11-863c085f2280",
-      "defaultAlpha": 0.5,
-      "defaultColor": "0xbababa",
-      "hidden": false,
-      "keyframes": [
-        "be77815f-a221-486b-88d8-f58b07b81370",
-        "d866063c-faa1-4e61-8ff0-7fb56c9331f7"
-      ],
-      "locked": true,
-      "name": "ledgegrabbox0",
-      "pluginMetadata": {
-        "com.fraymakers.FraymakersMetadata": {
-          "collisionBoxType": "LEDGE_GRAB_BOX",
-          "index": 0
-        }
-      },
-      "type": "COLLISION_BOX"
-    },
-    {
-      "$id": "c2eac155-8d6e-4ff3-90a7-d4137010e856",
-      "defaultAlpha": 0.5,
-      "defaultColor": "0xbababa",
-      "hidden": false,
-      "keyframes": [
-        "211e5510-ac98-4591-89a7-d91b0b55ff93",
-        "8946cbf9-64c4-4100-adab-49e0ed879f3d"
-      ],
-      "locked": false,
-      "name": "ledgegrabbox0",
-      "pluginMetadata": {
-        "com.fraymakers.FraymakersMetadata": {
-          "collisionBoxType": "LEDGE_GRAB_BOX",
-          "index": 0
-        }
-      },
-      "type": "COLLISION_BOX"
     },
     {
       "$id": "31d9af19-6914-464a-98b3-09f4eece3290",
@@ -82753,21 +82673,6 @@
       "y": 2
     },
     {
-      "$id": "55269268-96e0-4a95-8313-ee63f5227c1a",
-      "alpha": null,
-      "color": null,
-      "pivotX": 63,
-      "pivotY": 55,
-      "pluginMetadata": {
-      },
-      "rotation": 0,
-      "scaleX": 126,
-      "scaleY": 55,
-      "type": "COLLISION_BOX",
-      "x": -52,
-      "y": -100
-    },
-    {
       "$id": "797d358d-4f44-47ed-9dbf-80c3465b6789",
       "alpha": null,
       "color": null,
@@ -83281,21 +83186,6 @@
       "type": "COLLISION_BOX",
       "x": -69,
       "y": -67
-    },
-    {
-      "$id": "4bd919a0-48be-40ed-b78e-228d540c4838",
-      "alpha": null,
-      "color": null,
-      "pivotX": 63,
-      "pivotY": 55,
-      "pluginMetadata": {
-      },
-      "rotation": 0,
-      "scaleX": 126,
-      "scaleY": 55,
-      "type": "COLLISION_BOX",
-      "x": -52,
-      "y": -100
     },
     {
       "$id": "fb972982-142e-47ee-bc17-840a9c47dfb4",
