@@ -53,10 +53,10 @@
 	jab1: {},
 	jab2: {},
 	jab3: {},
-	dash_attack: {xSpeedConservation: 1},
+	dash_attack: {slideOff:true},
 	tilt_forward: {},
 	tilt_up: {},
-	tilt_down: {},
+	tilt_down: {slideOff:true},
 
 	//STRONG ATTACKS
 	strong_forward_in: {},
@@ -74,7 +74,7 @@
 	aerial_forward: {landAnimation:"aerial_forward_land"},
 	aerial_back: {landAnimation:"aerial_back_land"},
 	aerial_up: {landAnimation:"aerial_up_land"},
-	aerial_down: {landAnimation:"aerial_down_land", xSpeedConservation: 0.5, ySpeedConservation: 0.5, gravityMultiplier:0, allowMovement: false},
+	aerial_down: {landAnimation:"aerial_down_land", xSpeedConservation: 0.5, ySpeedConservation: 0.5},
 
 	//AERIAL ATTACK LANDING
 	aerial_neutral_land: {},

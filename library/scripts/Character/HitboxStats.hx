@@ -2,7 +2,8 @@
 {
 	//LIGHT ATTACKS
 	jab1: {
-		hitbox0: { damage: 11, angle: 35, baseKnockback: 75, knockbackGrowth: 90, hitstop: -1, selfHitstop: -1, limb:AttackLimb.HEAD }
+		hitbox0: { damage: 11, angle: 35, baseKnockback: 75, knockbackGrowth: 90, hitstop: -1, selfHitstop: -1, limb:AttackLimb.HEAD },
+		hitbox1: { damage: 11, angle: 35, baseKnockback: 75, knockbackGrowth: 90, hitstop: -1, selfHitstop: -1, limb:AttackLimb.HEAD }
 	},
 	dash_attack: {
 		hitbox0: {damage: 11, angle: 45, baseKnockback: 55, knockbackGrowth: 80, hitstop:-1, selfHitstop:-1, limb:AttackLimb.FOOT }

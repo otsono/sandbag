@@ -15,7 +15,7 @@
 	doubleJumpSpeeds: [15.5],
 	terminalVelocity: 9.25,
 	fastFallSpeed: 13.75,
-	friction: 0.97,
+	friction: 0.67,
 	walkSpeedInitial: 0,
 	walkSpeedAcceleration: 0,
 	walkSpeedCap: 8,
