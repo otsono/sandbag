@@ -1,23 +1,25 @@
-// API Script
-
-//SANDBAG ATTRIBUTES
-WD_TO_WALK_MOMENTUM_CONSERVATION = 0.5;
-
-var neutralSpecialProjectile = self.makeObject(null); // Tracks active Neutral Special projectile (in case we need to handle any special cases)
-
-var lastDisabledNSpecStatusEffect = self.makeObject(null);
-
-var downSpecialLoopCheckTimer = self.makeInt(-1);
-
-//offset projectile start position
+// -------------------------------------------------
+// ------------- SANDBAG ATTRIBUTES ----------------
+// ---------- (Feel free to customize) -------------
+// -------------------------------------------------
+var WD_TO_WALK_MOMENTUM_CONSERVATION = 0.5;
 var NSPEC_PROJ_X_OFFSET = 40;
 var NSPEC_PROJ_Y_OFFSET = -50;
-
 var NEUTRAL_SPECIAL_COOLDOWN = 60;
 
-// start general functions --- 
+// -------------------------------------------------
+// ----------------- Local Vars --------------------
+// ------------- (Don't edit these) ----------------
+// -------------------------------------------------
+var neutralSpecialProjectile = self.makeObject(null); // Tracks active Neutral Special projectile (in case we need to handle any special cases)
+var lastDisabledNSpecStatusEffect = self.makeObject(null);
+var downSpecialLoopCheckTimer = self.makeInt(-1);
 
-//Runs on object init
+
+// -------------------------------------------------
+// ------------- CHARACTER FUNCTIONS ---------------
+// -------------------------------------------------
+
 function initialize(){
     self.addEventListener(GameObjectEvent.LINK_FRAMES, handleLinkFrames, {persistent:true});
 }
@@ -43,16 +45,11 @@ function onTeardown() {
 	
 }
 
-// --- end general functions
+// -------------------------------------------------
+// --------------- LOCAL FUNCTIONS -----------------
+// -------------------------------------------------
 
-
-//Rapid Jab logic
-function jab3Loop(){
-    if (self.getHeldControls().ATTACK) {
-    	self.playFrame(2);
-	}
-}
-//-----------NEUTRAL SPECIAL-----------
+// -----------NEUTRAL SPECIAL-----------
 
 //projectile
 function fireNSpecialProjectile(){
@@ -61,12 +58,13 @@ function fireNSpecialProjectile(){
     neutralSpecialProjectile.get().setY(self.getY() + NSPEC_PROJ_Y_OFFSET);
 }
 
-//cooldown timer
+/**cooldown timer**/
 function startNeutralSpecialCooldown(){
     disableNeutralSpecial();
     self.addTimer(NEUTRAL_SPECIAL_COOLDOWN, 1, enableNeutralSpecial, {persistent:true});
 }
 
+/**cooldown timer**/
 function disableNeutralSpecial(){
     if (lastDisabledNSpecStatusEffect.get() != null) {
         self.removeStatusEffect(StatusEffectType.DISABLE_ACTION, lastDisabledNSpecStatusEffect.get().id);
@@ -74,6 +72,7 @@ function disableNeutralSpecial(){
     lastDisabledNSpecStatusEffect.set(self.addStatusEffect(StatusEffectType.DISABLE_ACTION, CharacterActions.SPECIAL_NEUTRAL));
 }
 
+/**cooldown timer**/
 function enableNeutralSpecial(){
     if (lastDisabledNSpecStatusEffect.get() != null) {
         self.removeStatusEffect(StatusEffectType.DISABLE_ACTION, lastDisabledNSpecStatusEffect.get().id);
@@ -83,12 +82,12 @@ function enableNeutralSpecial(){
 
 //-----------SIDE SPECIAL-----------
 
-//shield hit slowdown 
+/**shield hit slowdown**/
 function sideSpecialShieldHit(){
 	self.setXSpeed(-4);
 }
 
-//jump cancel hit confirm
+/**jump cancel hit confirm**/
 function sideSpecialHit(){
 	self.updateAnimationStats({allowJump: true});
 }
@@ -131,7 +130,9 @@ function specialDown_gotoLoop(){
     downSpecialLoopCheckTimer.set(self.addTimer(1, -1, specialDown_checkLoop));    
 }
 
-//-------------------------- HELPER FUNCTIONS -----------------------//
+// -------------------------------------------------
+// --------------- LOCAL FUNCTIONS -----------------
+// -------------------------------------------------
 /**
  * Compares the return value from a function against a list.
  */

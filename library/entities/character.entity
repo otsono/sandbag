@@ -26331,7 +26331,7 @@
     },
     {
       "$id": "6c21e0ce-e7fb-499a-a968-67d7315e9a5d",
-      "length": 2,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": "a64732c6-3841-4972-98f5-49cffaa3d45c",
@@ -26361,7 +26361,7 @@
     },
     {
       "$id": "75a38ade-8e93-439d-8860-8ab082724f47",
-      "length": 2,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": "dc3b59bb-cd33-4872-94a9-5767dc6a47a6",
@@ -26381,7 +26381,7 @@
     },
     {
       "$id": "908f9054-dfa9-46a4-9c8f-947193cc1abb",
-      "length": 17,
+      "length": 19,
       "pluginMetadata": {
       },
       "symbol": "c9ed137f-e6a4-4a77-8226-0c23ed7728e5",
@@ -29494,7 +29494,7 @@
     {
       "$id": "e7b6251b-7d9b-42e6-85f7-97ea0462d4bd",
       "code": "",
-      "length": 14,
+      "length": 12,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -35417,7 +35417,7 @@
     },
     {
       "$id": "8a15dcd8-6e01-4b2f-b5b9-dc4975f8d55b",
-      "length": 2,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": "68021ed0-f35a-4c79-bddc-5115cdc03b9d",
@@ -35437,7 +35437,7 @@
     },
     {
       "$id": "8362d87e-821b-433c-8bfd-a1c55763b3f2",
-      "length": 2,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": "1918a784-8e4e-40dc-a537-fdc98501a4ee",
@@ -35467,7 +35467,7 @@
     },
     {
       "$id": "4917e595-0737-4b23-9410-edab680825d6",
-      "length": 2,
+      "length": 3,
       "pluginMetadata": {
       },
       "symbol": "046a638a-569c-4fda-8f0d-432f9d66366b",
@@ -35497,7 +35497,7 @@
     },
     {
       "$id": "cd5f8ddf-5faf-4c52-a51c-c83806500668",
-      "length": 2,
+      "length": 3,
       "pluginMetadata": {
       },
       "symbol": "209af2a9-6b4d-464c-bd4b-58ebb18d6ee8",
@@ -35507,7 +35507,7 @@
     },
     {
       "$id": "5800008e-ba0b-40d7-a541-8e95ad7c1d3b",
-      "length": 2,
+      "length": 3,
       "pluginMetadata": {
       },
       "symbol": "ba3049a0-f6e3-4805-8b9c-5ea4730d1abf",
@@ -35546,14 +35546,6 @@
       "type": "IMAGE"
     },
     {
-      "$id": "a8db890b-d534-4555-bc78-32b1b66d3de0",
-      "code": "",
-      "length": 1,
-      "pluginMetadata": {
-      },
-      "type": "FRAME_SCRIPT"
-    },
-    {
       "$id": "be14d344-2cc9-4d4c-b8f3-e8ebe9441d03",
       "code": "//plays light dust effect\r\nmatch.createVfx(new VfxStats({spriteContent: \"global::vfx.vfx\", animation: GlobalVfx.DUST_START_HEAVY}), self);\r\n//plays a geneic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_2);",
       "length": 1,
@@ -35564,14 +35556,14 @@
     {
       "$id": "c3401ce8-2d45-41ae-8f3c-1016329c5fbf",
       "code": "",
-      "length": 12,
+      "length": 15,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
     },
     {
       "$id": "8dd4d6ff-81a9-4d21-934a-cb5371b37f14",
-      "length": 2,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -35581,7 +35573,7 @@
     },
     {
       "$id": "2f57ec41-1b5e-4edc-a714-cf38c284b29f",
-      "length": 13,
+      "length": 11,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -35591,7 +35583,7 @@
     },
     {
       "$id": "c0c2ee7e-02a9-4362-b5fe-c0047cce1bc0",
-      "length": 10,
+      "length": 12,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -35611,7 +35603,7 @@
     },
     {
       "$id": "41457164-5074-4e2b-8637-e01ceae38b1b",
-      "length": 2,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": "406d5b87-66c0-49fc-8035-db5ec9e31eb7",
@@ -35621,7 +35613,7 @@
     },
     {
       "$id": "b5fe4d65-85bc-4872-987d-96b957a3e209",
-      "length": 2,
+      "length": 3,
       "pluginMetadata": {
       },
       "symbol": "9a069ae1-84c7-42bd-8961-b8884942f7eb",
@@ -35631,7 +35623,7 @@
     },
     {
       "$id": "060b3414-d794-4605-8313-38d34c0a604b",
-      "length": 2,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -35641,7 +35633,7 @@
     },
     {
       "$id": "345353ee-bd1e-4e2d-b088-3952b15c74e9",
-      "length": 13,
+      "length": 11,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -35651,7 +35643,7 @@
     },
     {
       "$id": "48182d74-6a57-4595-bf67-3501b0271f45",
-      "length": 2,
+      "length": 3,
       "pluginMetadata": {
       },
       "symbol": "dd67f67e-9982-4023-a9f0-d942f5e1e753",
@@ -35671,7 +35663,7 @@
     },
     {
       "$id": "2dd0e2a3-c53d-4d30-a115-232afd20b64e",
-      "length": 10,
+      "length": 12,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -37322,7 +37314,6 @@
       "hidden": false,
       "keyframes": [
         "e7b6251b-7d9b-42e6-85f7-97ea0462d4bd",
-        "a8db890b-d534-4555-bc78-32b1b66d3de0",
         "be14d344-2cc9-4d4c-b8f3-e8ebe9441d03",
         "c3401ce8-2d45-41ae-8f3c-1016329c5fbf"
       ],
@@ -87464,12 +87455,12 @@
       "pivotY": 60,
       "pluginMetadata": {
       },
-      "rotation": 359,
+      "rotation": 7,
       "scaleX": 0.98,
       "scaleY": 1.05,
       "type": "IMAGE",
-      "x": -21.92318914719595,
-      "y": -61.52249782183031
+      "x": -12.979193356316747,
+      "y": -63.79748619091754
     },
     {
       "$id": "9a069ae1-84c7-42bd-8961-b8884942f7eb",
