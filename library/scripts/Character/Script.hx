@@ -11,6 +11,7 @@ var NEUTRAL_SPECIAL_COOLDOWN = 60;
 // ----------------- Local Vars --------------------
 // ------------- (Don't edit these) ----------------
 // -------------------------------------------------
+var inSimulatedAir = self.makeBool(false);
 var neutralSpecialProjectile = self.makeObject(null); // Tracks active Neutral Special projectile (in case we need to handle any special cases)
 var lastDisabledNSpecStatusEffect = self.makeObject(null);
 var downSpecialLoopCheckTimer = self.makeInt(-1);
@@ -22,6 +23,13 @@ var downSpecialLoopCheckTimer = self.makeInt(-1);
 
 function initialize(){
     self.addEventListener(GameObjectEvent.LINK_FRAMES, handleLinkFrames, {persistent:true});
+    self.addEventListener(EntityEvent.STATE_CHANGE, function() {
+        if(self.getAnimation() != "skid" && self.getAnimation() != "walk_out"){
+            return;
+        }
+
+        inSimulatedAir.set(false);
+    }, {persistent:true});
 }
 
 function update(){
