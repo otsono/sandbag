@@ -145,13 +145,11 @@ function specialDown_gotoLoop(){
  * Compares the return value from a function against a list.
  */
 function isAny(valueFromFunction:any, returnVals:Array):Bool{
-    var isTrue = false;
-
     for (value in returnVals){        
         if(valueFromFunction == value){
             return true;
         }
     }
 
-    return isTrue;
+    return false;
 }
