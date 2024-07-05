@@ -1,4 +1,4 @@
-# Sandbag (Fraymakers)
+# Sandbag (Fraymakers) — UNFINISHED
 Sandbag, the punching bag character from Super Smash Bros and Super Smash Flash 2, as a playable Steam Workshop character in Fraymakers.
 
 This repo contains all of the code used for Sandbag, but **please note that no sprite content is included** at this time as the character has been created using official Super Smash Flash 2 sprites, which developers have requested to not be reuploaded. If the art is replaced at some point with custom art, expect it to be uploaded to this repo.
